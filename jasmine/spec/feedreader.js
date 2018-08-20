@@ -95,7 +95,7 @@ $(function() {
             loadFeed(3, done);
         });
 
-        it("Check if exists elements", function(done) {
+        it('Check if exists elements', function(done) {
             let item = $('.feed .entry');
             expect(item.length).toBeGreaterThan(0);
             done();
